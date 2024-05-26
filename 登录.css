@@ -1,0 +1,177 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppings'sans-serif;}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: url("../images/登录南京.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/*菜单导航栏*/
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	/*background-color: red;*/
+	display: flex;
+	justify-content:space-between;
+	align-content: center;
+	z-index: 99;
+}
+.logo{font-size: 2em;
+	color: #fff;
+	user-select: none;
+}
+/* 导航选项*/
+.navigation a{position: relative;
+font-size: 1.1em;
+color: #fff;
+text-decoration: none;
+font-weight: 500;
+margin-left: 40px;}
+
+.navigation .loginBtn{width: 130px;
+height: 50px;
+background: transparent;
+border: 2px solid #fff;
+outline: none;
+border-radius: 6px;
+cursor: pointer;
+font-size: 1.1em;
+color: #fff;
+font-weight: 500;
+margin-left: 40px;
+transition: .5s;
+
+}
+/* 登陆按钮特效*/
+.navigation .loginBtn:hover{
+	background-color: #fff;
+	color: #162938;
+}
+/*导航选项特效*/
+.navigation a::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -6px;
+	width: 100%;
+	height: 3px;
+	background-color: #fff;
+	border-radius: 5px;
+	transform:scaleX(0);
+	transition: transform .5s
+}
+/* 鼠标到达之后*/
+.navigation a:hover:after{
+	transform: scaleX(1)
+}
+/*登录菜单样式*/
+.wrapper{
+	position: relative;
+	width: 400px;
+	height: 440px;
+	background: transparent;
+	border: 2px solid rgba(151,142,142,1.00);
+	border-radius: 20px;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 30px rgba(0,0,0,.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	/*display: none;*/
+	
+}
+.wrapper .form-box{
+	width: 100%;
+	padding: 40px;
+	
+}
+.form-box h2{
+	font-size: 2em;
+	color: #162938;
+	text-align: center;
+}
+.input-box{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	border-bottom: 2px solid #162938;
+	margin: 30px 0;
+	
+}
+.input-box input{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	
+	
+}
+
+/*忘记密码*/
+.remember-forgot{
+	font-size: .9m;
+	color: #162938;
+	font-weight: 500;
+	margin: -15px 0 15px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+/*忘记密码特效*/
+.submitBtn{
+	width: 100%;
+	height: 45px;
+	background: #162938;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+	cursor: pointer;
+	color: #fff;
+	font-weight: 500;
+	
+}
+.wrapper .close-icon{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 45px;
+	height: 45px;
+	background-color: #162938;
+	font-size: 2em;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

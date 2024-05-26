@@ -1,0 +1,70 @@
+
+/*---------- 通配设置   -----------------*/
+* { margin:0; padding:0; font-family:微软雅黑;}
+BODY {	BACKGROUND: #ecf3fc; FONT: 12px/20px simsun;}
+IMG {	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none}
+ul,li{ list-style:none; list-style-type:none;} 
+A {	COLOR: #257ec0; TEXT-DECORATION: none}
+A:hover {	COLOR: #ff7202; TEXT-DECORATION: underline}
+.center{ text-align:center;}
+.fl{ float:left;}
+.fr{ float:right;}
+.lh22{ line-height:22px;}
+.p5{ padding:5px;}
+.pt3{ padding-top:3px;}
+.pt5{ padding-top:5px;}
+.pt10{ padding-top:10px;}
+.clear{ clear:both;}
+.m10{ margin:10px;}
+
+/*----------  大容器设置  -----------------*/
+.con{ width:960px; height:auto; padding:10px; margin:auto; background:#fff; }
+.head{ width:960px; height:100px; margin:auto;}
+.head_left{width:460px; height:100px; float:left;}
+.head_left h1{ font-size:50px; color:#000; line-height:75px;}
+.head_left p{ font-size:26px; color:#000; line-height:36px; font-family:Tahoma, Geneva, sans-serif}
+.head_nav{ width:200px; height:30px; float:right;}
+.head_nav li{ float:left; padding:5px 10px;}
+.head_nav li a{ font-size:12px; color:#666;}
+
+/*----------  导航设置   -----------------*/
+.nav{width:960px; height:36px; margin:auto; background:#000;}
+.nav ul{ padding-left:50px;}
+.nav li{ float:left; padding:0px 30px;}
+.nav li a{ font-size:16px; color:#fff; line-height:36px; font-weight:bold; font-family:微软雅黑;}
+.nav li a:hover{ text-decoration:none;}
+.nav li:hover{ background:#900;}
+
+
+/*----------  轮播设置   -----------------*/
+.lunbo{ width:960px; height:380px; margin:5px auto;}
+/*---------- 主体样式设置-----------------*/
+.main{ width:960px; height:auto; margin:auto;}
+.jianjie{ width:960px; height:auto; min-height:220px; margin:auto;}
+.jianjie_top{ width:950px; height:30px; margin:auto; padding-left:10px; background:#900; color:#fff; font-size:16px; line-height:30px;}
+.jianjie_top a{ color:#fff; font-size:16px; line-height:30px;}
+.jianjie_des{ width:680px; height:auto; padding:20px; float:left; font-size:14px; text-indent:2em; color:#555; line-height:26px;}
+
+.jianjie_main{width:900px; height:auto; padding:10px; margin:auto; font-size:14px;color:#555; line-height:26px;}
+.jianjie_main p{font-size:14px; text-indent:2em; color:#555; line-height:26px;}
+
+
+.pic_show{ width:960px; height:240px; margin:auto;}
+.pic_show_top{ width:950px; height:30px; margin:auto; padding-left:10px; background:#900; color:#fff; font-size:16px; line-height:30px;}
+.pic_show li{ float:left; margin:5px;}
+
+.artist{ width:960px; height:200px; margin:auto;}
+
+
+
+/*----------  页脚设置  -----------------*/
+.foot{ width:960px; height:80px;margin:auto; margin-top:20px;border-top:3px solid #900; background:#000;color:#fff; }
+.foot{ font-size:14px;text-align:center; line-height:36px; }
+
+
+
+
+
+
+
+ 
